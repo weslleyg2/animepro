@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(184, 108, 38);
+  --primary-color-darker: rgb(182, 132, 23);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+h1,h2{
+  text-transform: uppercase;
+  text-align: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../img/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.836);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff ;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background: var(--primary-color-darker);
+}
+form button a{
+  text-decoration: none;
+  color: #fff;
+}
+p{
+  text-align: center;
+}
+p strong{
+  text-transform: uppercase;
+}
+.btn{
+  border: none;
+  background:rgb(145, 102, 22);
+  color:#fff ;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px; 
+  transform: all .2s ease-out;
+}
+.link {
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: rgb(211, 149, 35);
+}
+.btnTelegram{
+  margin: 0 8%;
+  background-color: #0088cc; 
+  border-radius: 100px;
+}
+.btnTelegram::before{
+  content: url(../img/botaotelegram-1.webp);
+  height: 50px;
+ 
+}
